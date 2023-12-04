@@ -1,7 +1,36 @@
 .App {
   text-align: center;
 }
-
+h4{
+  margin-left: -270px;
+}
+.div{
+  display: flex;
+  margin-top: 20px;
+}
+.done{
+  text-decoration: line-through;
+  color: red;
+}
+.undone{
+  color: green;
+}
+.like{
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.footerClass{
+  color: blue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
